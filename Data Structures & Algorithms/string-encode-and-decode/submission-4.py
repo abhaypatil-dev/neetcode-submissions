@@ -1,12 +1,4 @@
 class Solution:
-    # osheen, naina
-    # 6osheen5naina
-    # Encode: osheen|naina
-
-    # 6osheen, 10naina
-    # 7(6osheen)7(10naina)
-    # Encode: osheen abhay naina 
-
     def encode(self, strs: List[str]) -> str:
         ans = ""
         for s in strs:
